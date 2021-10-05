@@ -37,9 +37,9 @@ int main()
    io object2(6);
    io object3(object2);
 
-   object1.print();
-   object2.print();
-   object3.print();
+   cout<<"Object1 : ";      object1.print();
+   cout<<"Object2 : ";      object2.print();
+   cout<<"Object3 : ";      object3.print();
 
 return 0;
 }
