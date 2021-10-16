@@ -23,7 +23,8 @@ int main()
 {
    io object(6);
 
-   cout<<"Object : ";      print(object);
+   cout<<"Object : ";
+   print(object);
 
 return 0;
 }
