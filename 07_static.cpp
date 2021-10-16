@@ -13,8 +13,8 @@ public:
 
 io :: io( int ip )
 {
- value = ip;
- total += value;
+    value = ip;
+    total += value;
 }
 
 void io :: print( void )
@@ -42,7 +42,7 @@ int main()
    for(io obj : object2)
     obj.print();
 
-   io::static_print();          // object1[4].static_print();
+    io::static_print();
 
 return 0;
 }
