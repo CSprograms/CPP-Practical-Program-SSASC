@@ -52,7 +52,7 @@ void stack :: pop()
 	if(IsEmpty())
 		cout<<"\nStack is Empty."<<endl;
 	else
-		cout<<"Popped Element : "<<S[TOP];
+		cout<<"Popped Element : "<<S[TOP--];
 }
 
 void stack :: display()
