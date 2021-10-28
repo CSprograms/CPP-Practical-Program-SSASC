@@ -86,19 +86,21 @@ int main()
 
 		switch(choice)
 		{
-        case 1:
-            object.push();
-            break;
-        case 2:
-            object.pop();
-            break;
-        case 3:
-            object.display();
-            break;
-        case 4:
-            cout<<"Program Ends"<<endl;
-            break;
+        	case 1:
+            		object.push();
+            		break;
+        	case 2:
+           		 object.pop();
+           		 break;
+        	case 3:
+          		  object.display();
+           		 break;
+      		case 4:
+           		 cout<<"Program Ends"<<endl;
+          		  break;
+		default;
+            		cout<<"Invalid Input"<<endl;
 		}
-    }while( choice != 4 );
-	return 0;
+    	}while( choice != 4 );
+return 0;
 }
